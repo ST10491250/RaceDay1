@@ -14,3 +14,9 @@ The Participant can browse upcoming events, view event and category information,
 The RaceDay ERD defines the database entities, attributes, primary keys, foreign keys and relationships required by the system.
 
 The main entities are Users, Events, Categories, Enrollments, Results, Routes and WeatherUpdates.
+
+## Users Entity
+
+The Users entity stores information about RaceDay users. The Role attribute distinguishes between Organisers and Participants.
+
+UserID is the primary key and Email is unique so that the same email address cannot be registered more than once.
