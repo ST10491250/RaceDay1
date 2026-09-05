@@ -89,3 +89,9 @@ The required planning documents are located in the `docs` folder:
 - `RaceDay_ERD.png`
 - `RaceDay_API_Endpoint_Plan.md`
 - `RaceDay_Database.sql`
+
+## CI/CD Validation
+
+GitHub Actions is used to validate the RaceDay repository structure. The workflow checks that the required documentation folder and Part 1 files are present.
+
+![Successful GitHub Actions Build](images/github-actions-success.png)
