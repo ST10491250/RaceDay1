@@ -48,3 +48,11 @@ The Results entity stores participant race performance.
 It records information such as finish time, overall position and result status.
 
 An enrolment can have zero or one result because a participant may be registered before completing the event.
+
+## Routes and Weather
+
+The Routes entity stores route information for events, including start point, finish point, distance and map information.
+
+The WeatherUpdates entity stores weather information associated with events, including temperature, conditions, wind speed and chance of rain.
+
+These entities support the requirement for participants to prepare for race day using route and weather information.
