@@ -1,0 +1,33 @@
+name: Validate RaceDay Repository
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check docs folder
+        run: |
+          test -d docs
+          echo "docs folder exists."
+
+      - name: Check required files
+        run: |
+          test -f docs/RaceDay_ERD.png
+          test -f docs/RaceDay_API_Endpoint_Plan.md
+          test -f docs/RaceDay_Database.sql
+          echo "All required Part 1 files exist."
+
+      - name: Validate repository structure
+        run: |
+          echo "RaceDay Part 1 repository structure is valid."
