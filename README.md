@@ -40,3 +40,11 @@ The Enrollments entity connects participants to event categories.
 It records information such as the participant, category, enrolment date, registration status and race number.
 
 This allows the system to keep track of which participants have entered which categories.
+
+## Results Entity
+
+The Results entity stores participant race performance.
+
+It records information such as finish time, overall position and result status.
+
+An enrolment can have zero or one result because a participant may be registered before completing the event.
