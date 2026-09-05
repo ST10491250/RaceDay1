@@ -73,3 +73,19 @@ The seed data includes:
 - Weather information
 
 The database script is designed for Microsoft SQL Server and can be executed using SQL Server Management Studio.
+
+## GitHub Actions / CI/CD
+
+GitHub Actions is used to automatically validate the RaceDay repository structure.
+
+The workflow checks that the docs folder exists and that the required ERD, API Endpoint Plan and SQL database script are present.
+
+A successful workflow is shown by a green build in GitHub Actions.
+
+## Part 1 Documentation
+
+The required planning documents are located in the `docs` folder:
+
+- `RaceDay_ERD.png`
+- `RaceDay_API_Endpoint_Plan.md`
+- `RaceDay_Database.sql`
