@@ -1,7 +1,7 @@
 # RaceDay – Part 1: API Endpoint Plan
 
 This plan is designed to cover the required RaceDay functionality before implementation. The routes use the `/api/` prefix and are intended for a REST-style API.
-
+ 
 | HTTP Method | Route | Description | Role Required | Request Body | Expected Response |
 |---|---|---|---|---|---|
 |POST|/api/auth/register|Creates a new participant or organiser account.|Public|fullName, email, password, role, phone, dateOfBirth|201 Created; 400 Bad Request if validation fails or email exists.|
