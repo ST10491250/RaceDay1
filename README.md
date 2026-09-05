@@ -26,3 +26,9 @@ UserID is the primary key and Email is unique so that the same email address can
 The Events entity stores information about running, walking and cycling events.
 
 Each event is associated with an organiser through OrganiserID. One organiser can create many events, creating a one-to-many relationship.
+
+## Categories Entity
+
+The Categories entity stores the different race categories available for each event.
+
+An event can have multiple categories. For example, an event could offer a 10 KM race and a 21.1 KM half marathon.
