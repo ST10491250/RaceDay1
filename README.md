@@ -32,3 +32,11 @@ Each event is associated with an organiser through OrganiserID. One organiser ca
 The Categories entity stores the different race categories available for each event.
 
 An event can have multiple categories. For example, an event could offer a 10 KM race and a 21.1 KM half marathon.
+
+## Enrollments Entity
+
+The Enrollments entity connects participants to event categories.
+
+It records information such as the participant, category, enrolment date, registration status and race number.
+
+This allows the system to keep track of which participants have entered which categories.
