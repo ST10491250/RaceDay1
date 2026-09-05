@@ -26,4 +26,4 @@ This plan is designed to cover the required RaceDay functionality before impleme
 |GET|/api/results/me|Returns the logged-in participant's personal performance history.|Participant|None|200 OK with result history.|
 |PUT|/api/results/{resultId}|Corrects or updates a result.|Organiser|finishTime, positionOverall, resultStatus|200 OK with updated result; 403 Forbidden or 404 Not Found where applicable.|
 |GET|/api/events/{eventId}/route|Returns route information for an event.|Public|None|200 OK with route details/map URL; 404 Not Found if no route exists.| 
-|GET|/api/events/{eventId}/weather|Returns the latest weather information for an event.|Public|None|200 OK with temperature, conditions, wind and rain chance; 404 Not Found if unavailable.|
+|GET|/api/events/{eventId}/weather|Returns the latest weather information for an event.|Public|None|200 OK with temperature, conditions, wind and rain chance; 404 Not Found if unavailable.| 
