@@ -56,3 +56,20 @@ The Routes entity stores route information for events, including start point, fi
 The WeatherUpdates entity stores weather information associated with events, including temperature, conditions, wind speed and chance of rain.
 
 These entities support the requirement for participants to prepare for race day using route and weather information.
+
+## Database Seed Data
+
+The SQL script contains sample data required for the RaceDay system.
+
+The seed data includes:
+
+- Two Organisers
+- Two Participants
+- Three Events
+- Categories for each event
+- Sample participant enrolments
+- Sample results
+- Route information
+- Weather information
+
+The database script is designed for Microsoft SQL Server and can be executed using SQL Server Management Studio.
